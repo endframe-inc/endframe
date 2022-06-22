@@ -2080,25 +2080,25 @@ figcaption {
 }
 
 .image-animation.company-img-1 {
-  background-image: url("https://assets.website-files.com/5f574f48665e0ed6e8f81c80/5f61e199e5edc187b816a3f2_rectangle%402x.jpg");
+  background-image: url("https://i.ibb.co/sgzFSv9/basic.jpg");
   background-position: 0px 0px;
   background-size: cover;
 }
 
 .image-animation.company-img-2 {
-  background-image: url("https://assets.website-files.com/5f574f48665e0ed6e8f81c80/5f61e1b30e98530e68214d51_rectangle-copy-2%402x.jpg");
+  background-image: url("https://i.ibb.co/QPPYZpf/basic1.jpg");
   background-position: 0px 0px;
   background-size: cover;
 }
 
 .image-animation.company-img-2 {
-  background-image: url("https://assets.website-files.com/5f574f48665e0ed6e8f81c80/5f61e1b30e98530e68214d51_rectangle-copy-2%402x.jpg");
+  background-image: url("https://i.ibb.co/QPPYZpf/basic1.jpg");
   background-position: 0px 0px;
   background-size: cover;
 }
 
 .image-animation.company-img-3 {
-  background-image: url("https://assets.website-files.com/5f574f48665e0ed6e8f81c80/5f61e1a628de7c22e52c492f_rectangle-copy%402x.jpg");
+  background-image: url("https://i.ibb.co/kS21vYm/group.jpg");
   background-position: 0px 0px;
   background-size: cover;
 }
@@ -2874,7 +2874,28 @@ figcaption {
   }
 
   .button {
-    margin-bottom: 5px;
+    height: 54px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding: 17px 35px 15px;
+    border-radius: 100px;
+    background-color: #13cc78;
+    -webkit-transition: color 200ms ease, border-color 200ms ease, background-color 200ms ease;
+    transition: color 200ms ease, border-color 200ms ease, background-color 200ms ease;
+    color: #0f0f11;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .button-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  .button-container.small {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   .button.btn-subscribe {
