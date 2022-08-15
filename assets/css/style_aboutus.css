@@ -158,7 +158,7 @@ figcaption {
 .nav-logo {
   position: relative;
   top: 15%;
-  left: 0%;
+  left: 0%;;
 }
 
 .nav-link {
@@ -815,6 +815,16 @@ figcaption {
   font-weight: 500;
   text-align: center;
   text-decoration: none;
+}
+
+.button.empty {
+  height: auto;
+  min-width: 250px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #13cc78;
+  background-color: transparent;
+  color: #fff;
 }
 
 .button:hover {
@@ -1987,6 +1997,7 @@ figcaption {
   background-size: 140vw;
   background-repeat: repeat-x;
 }
+
 .extra-bold-text {
   font-weight: 800;
 }
@@ -2079,25 +2090,25 @@ figcaption {
 }
 
 .image-animation.company-img-1 {
-  background-image: url("https://assets.website-files.com/5f574f48665e0ed6e8f81c80/5f61e199e5edc187b816a3f2_rectangle%402x.jpg");
+  background-image: url("https://i.ibb.co/sgzFSv9/basic.jpg");
   background-position: 0px 0px;
   background-size: cover;
 }
 
 .image-animation.company-img-2 {
-  background-image: url("https://assets.website-files.com/5f574f48665e0ed6e8f81c80/5f61e1b30e98530e68214d51_rectangle-copy-2%402x.jpg");
+  background-image: url("https://i.ibb.co/QPPYZpf/basic1.jpg");
   background-position: 0px 0px;
   background-size: cover;
 }
 
 .image-animation.company-img-2 {
-  background-image: url("https://assets.website-files.com/5f574f48665e0ed6e8f81c80/5f61e1b30e98530e68214d51_rectangle-copy-2%402x.jpg");
+  background-image: url("https://i.ibb.co/QPPYZpf/basic1.jpg");
   background-position: 0px 0px;
   background-size: cover;
 }
 
 .image-animation.company-img-3 {
-  background-image: url("https://assets.website-files.com/5f574f48665e0ed6e8f81c80/5f61e1a628de7c22e52c492f_rectangle-copy%402x.jpg");
+  background-image: url("https://i.ibb.co/kS21vYm/group.jpg");
   background-position: 0px 0px;
   background-size: cover;
 }
@@ -2873,7 +2884,28 @@ figcaption {
   }
 
   .button {
-    margin-bottom: 5px;
+    height: 54px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding: 17px 35px 15px;
+    border-radius: 100px;
+    background-color: #13cc78;
+    -webkit-transition: color 200ms ease, border-color 200ms ease, background-color 200ms ease;
+    transition: color 200ms ease, border-color 200ms ease, background-color 200ms ease;
+    color: #0f0f11;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .button-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  .button-container.small {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   .button.btn-subscribe {
@@ -5181,105 +5213,5 @@ figcaption {
     grid-column-start: span 2;
     -ms-grid-column-span: 2;
     grid-column-end: span 2;
-  }
-}
-
-h2 {
-  color: #333;
-  font-family: tahoma;
-  font-size: 3rem;
-  font-weight: 100;
-  line-height: 1.5;
-  text-transform: uppercase;
-  white-space: nowrap;
-  overflow: hidden;
-  position: relative;
-  width: 550px;
-}
-
-h2 span {
-  font-size: 40px;
-  margin-left: 40px;
-}
-
-.message {
-  background-color: #0f0f11;
-  color: #fff;
-  display: block;
-  font-weight: 900;
-  overflow: hidden;
-  position: absolute;
-  padding-left: 0.5rem;
-  top: 0.2rem;
-  left: 270px;
-  animation: openclose 5s ease-in-out infinite;
-}
-
-.word1, .word2, .word3 {
-  font-family: tahoma;
-}
-
-@keyframes openclose {
-  0% {
-    top: 0.2rem;
-    width: 0;
-  }
-  5% {
-    width: 0;
-  }
-  15% {
-    width: 230px;
-  }
-  30% {
-    top: 0.2rem;
-    width: 230px;
-  }
-  33% {
-    top: 0.2rem;
-    width: 0;
-  }
-  35% {
-    top: 0.2rem;
-    width: 0;
-  }
-  38% {
-    top: -4.5rem;
-    
-  }
-  48% {
-    top: -4.5rem;
-    width: 190px;
-  }
-  62% {
-    top: -4.5rem;
-    width: 190px;
-  }
-  66% {
-    top: -4.5rem;
-    width: 0;
-    text-indent: 0;
-  }
-  71% {
-    top: -9rem;
-    width: 0;
-    text-indent: 5px;
-  }
-  86% {
-    top: -9rem;
-    width: 285px;
-  }
-  95% {
-    top: -9rem;
-    width: 285px;
-  }
-  98% {
-    top: -9rem;
-    width: 0;
-    text-indent: 5px;
-  }
-  100% {
-    top: 0;
-    width: 0;
-    text-indent: 0;
   }
 }
