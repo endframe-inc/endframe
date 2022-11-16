@@ -313,12 +313,12 @@
       <script>
          function sendEmail(){
                Email.send({
-                  SecureToken : "25343018-1fdf-4cb0-aaf5-cb52feed67dc",
-                  Port : "2525",
-                  To : 'contact.endframe@gmail.com',
-                  From : 'endframe.inc@gmail.com',
-                  Subject : "New Early Access Email",
-                  Body : "Email: " + document.getElementById("Waitlist").value
+                  SecureToken : "9716e37b-f8f8-47fb-8701-8dd2293806ec",
+                  To : document.getElementById("Waitlist").value,
+                  From : 'admin@endframe.ml',
+                  FromName : 'Endframe Inc.',
+                  Subject : "Early access to endframe",
+                  Body : "Hi there, Thanks so much for signing-up to try endframe! My name is Harsh, I'm one of the founders here. 👋 Quick refresher: endframe is peer-to-peer video calling webapp. We've been in Alpha, testing with teams for several months, and wanted to invite you to join them! But first, we need to see if endframe is compatible for you. Thanks so much for your time! Be in touch. 🙌 Harsh & The endframe team"
             })
          }
       </script>
